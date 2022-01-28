@@ -22,9 +22,9 @@ By setting N, you determine the number of lines of your random art. Default = 15
 
 The default color scheme is all. If you want something else, choose either "spring", "summer", "fall", or "winter".
 
-# Examples
+# Example
 
-make_art(20)
+make_art(10, 25, color="spring")
 
-Output:
 
+See for yourself!
