@@ -11,7 +11,7 @@ make_art <- function(favorite_number, N = 15, color = "all") {
   if (color == "winter") {
     colors <- sample(c("#22577E", "5584AC", "#95D1CC", "#F6F2D4", "#000957"))
   }
-  size <- sample(2:6, N, replace = TRUE)
+  size <- sample(2:8, N, replace = TRUE)
   
   x1_begin <- c(sample(1:100, N, replace = TRUE))
   x_end <- c(sample(1:100, N, replace = TRUE))
